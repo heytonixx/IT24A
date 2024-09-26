@@ -32,3 +32,13 @@ switch (day) {
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
+
+// Functional Programming
+// Determine if a number is odd or even
+function checkOddEven(num) {
+    if (num % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
