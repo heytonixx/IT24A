@@ -27,3 +27,8 @@ switch (day) {
     default:
         console.log("It's another day");
 }
+
+// Loops
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
