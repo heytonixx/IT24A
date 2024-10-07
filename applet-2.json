@@ -1,0 +1,19 @@
+[
+    {
+        "latitude": 8.360255,
+        "longitude" : 124.867531,
+        "message" : "Student Center"
+    },
+      
+    {
+        "latitude": 8.362302,
+        "longitude" : 124.867640,
+        "message" : "Wako Wako Eatery"
+    },
+
+    {
+        "latitude": 8.360823,
+        "longitude" : 124.866330,
+        "message" : "Kalenderya ni Nanay"
+    }
+]
