@@ -7,7 +7,7 @@ class LeafletMap {
     }
 
     initTileLayer() {
-        
+
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> Antony C. Canete '
@@ -15,6 +15,7 @@ class LeafletMap {
     }
 
     addMarker(lat, long, message) {
+        
         const marker = L.marker([lat, long]).addTo(this.map)
             .bindPopup(message);
     }
