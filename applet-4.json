@@ -2,18 +2,18 @@
     {
         "student_id": 1,
         "student_name": "Antony C. Canete",
-        "student_program": "BS-Information Technology"
+        "student_program": "BS-Agriculture"
     },
 
     {
         "student_id": 2,
         "student_name": "Jayce Rae Ayson",
-        "student_program": "BS-Financial Management"
+        "student_program": "BS-Nursing"
     },
 
     {
         "student_id": 3,
-        "student_name": "Son Goku",
-        "student_program": "BS-Computer Engineering"
+        "student_name": "Bianca Mat-ao",
+        "student_program": "BS-Medical Tech"
     }
 ]
