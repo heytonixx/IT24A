@@ -1,0 +1,19 @@
+[
+    {
+        "student_id": 1,
+        "student_name": "Antony C. Canete",
+        "student_program": "BS-Agriculture"
+    },
+
+    {
+        "student_id": 2,
+        "student_name": "Jayce Rae Ayson",
+        "student_program": "BS-Nursing"
+    },
+
+    {
+        "student_id": 3,
+        "student_name": "Bianca Mat-ao",
+        "student_program": "BS-Medical Tech"
+    }
+]
