@@ -12,8 +12,7 @@ class CardSearch {
         this.searchInput.addEventListener('input', () => {
             this.filterCards(this.searchInput.value);
         });
-        
-    }
+      }
 
     filterCards(query) {
         const searchTerm = query.toLowerCase();
