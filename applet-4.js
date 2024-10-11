@@ -11,7 +11,7 @@ class StudentList {
         this.renderStudentList(this.students); 
         this.bindSearchEvent();
     }
-    
+
     async fetchData() {
         try {
             const response = await fetch(this.dataUrl);
@@ -31,6 +31,7 @@ class StudentList {
         ).join('');
     }
 
+    
     bindSearchEvent() {
         const studentSearchBar = document.getElementById('studentSearchBar');
         const studentSearchListContainer = document.getElementById('studentSearchList');
