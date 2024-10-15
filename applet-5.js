@@ -59,3 +59,9 @@ class WeatherService extends WeatherApp {
         }
         return null;
     }
+    async getWeatherDataByCoordinates(latitude, longitude) {
+        try {
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${this.apiKey}&units=metric`);
+            if (response.ok) {
+                return await response.json();
+            }
