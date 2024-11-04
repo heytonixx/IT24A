@@ -13,7 +13,7 @@ class todoList{
             if (action) this[action + 'Task'](e);
         });
     }
-
+    
     addOrUpdateTask() {
         const taskText = this.todoInput.value.trim();
         if (taskText) {
